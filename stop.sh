@@ -1,0 +1,1 @@
+sudo ssserver -d stop
