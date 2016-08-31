@@ -1,0 +1,7 @@
+{
+    "server" : "my_server_ip",
+    "server_port" : 2016,
+    "password" : "mypassword",
+    "method" : "aes-256-cfb",
+    "fast_open" :  false
+}
