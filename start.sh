@@ -1,2 +1,3 @@
 #!/bin/bash
-ssserver -c ./shadowsocks.json -d start
+cp ./shadowsocks.json /etc/
+ssserver -c /etc/shadowsocks.json -d start

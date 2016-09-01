@@ -1,7 +1,10 @@
 {
-    "server" : "my_server_ip",
-    "server_port" : 2016,
-    "password" : "mypassword",
-    "method" : "aes-256-cfb",
-    "fast_open" :  false
+    "server":"0.0.0.0",
+    "server_port":8388,
+    "timeout":600,
+    "password":"yourpassword",
+    "method":"aes-256-cfb",
+    "local_port":1080,
+    "fast_open":true,
+    "workers":1
 }
